@@ -1,5 +1,5 @@
 /*
-        Project: ADC with PIC16F688 and LM35
+        Project: A thermometer with PIC16F688 and LM35
         Designer : Burak Koryan | web : http://www.koryan.ca
         E-mail : b.fk@unb.ca
         Date : January 06 2018
