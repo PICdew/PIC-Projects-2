@@ -11,7 +11,7 @@ list		p=16f688
 __CONFIG    _CP_OFF & _CPD_OFF & _BOD_OFF & _PWRTE_ON & _WDT_OFF & _INTRC_OSC_NOCLKOUT & _MCLRE_ON & _FCMEN_OFF & _IESO_OFF
 ;-------------------------------------------------------------------------------------------------	
 	
-	    CBLOCK 0x20	     ; define variables
+	    CBLOCK 0x20	     ; define variables in the memory space
 	COUNT0		    
 	COUNT1
 	    ENDC
@@ -31,19 +31,16 @@ GOTO MAIN
 ; some delay here:
 	    
 DELAY:
-    
 	MOVLW 0xFF
 	MOVWF COUNT0
 	MOVWF COUNT1
-	
 D0:
 	DECFSZ COUNT0
 	GOTO D0
-
 D1:
 	DECFSZ COUNT1
 	GOTO D0
-
+	
     RETURN
  
 	END 
