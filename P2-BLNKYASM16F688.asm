@@ -28,7 +28,6 @@ MAIN:
 	    CALL DELAY
 GOTO MAIN
 	 
-
 ; some delay here:
 	    
 DELAY:
@@ -46,7 +45,5 @@ D1:
 	GOTO D0
 
     RETURN
-	    
-
-	 
+ 
 	END 
