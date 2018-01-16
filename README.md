@@ -1,6 +1,6 @@
 **I have been using PICs on and off for personal projects and for work since 2010.Here are some personal projects I have done myself using Microchip's PICs:**
 
-**Note:The projects below are written in C or ASM.I love both <3** 
+**Note:The projects above are written in C or ASM.I love both <3** 
 
 
 **P1-16F688LM35 - Thermometer with PIC16F688 and LM35:**
