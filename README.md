@@ -9,3 +9,6 @@ One of ADC channels of PIC16F688 was used to convert LM35's (temperature sensor)
 
 **P2-BLNKYASM16F688 - Blinky LED with PIC16F688 in ASM:**
 Like "hello world!" in programming,I think a blinky led project is the "hello world!" in embedded systems :) I'm happy to be back using ASM with PICs.The source code is just for a led in PortA.1 to turn on or off after the delay function has been called.
+
+**P3-TMR016F84 - 8-bit timer(TMR0) use of PIC16F84 in C**
+I just wanted to make a reference source code to use in the future.In the sourcecode,the TMR0 is initialized and the prescaler rate is set to 1/2.The overflow bit is cleared and the TMR0 is started again 10 times and this is shown in PORTB as output.
