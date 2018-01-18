@@ -25,8 +25,8 @@ void main(void)
     {
         do
         {
-          PORTA = 0x2;      // PORTA = 2 if timer overflow bit isn't set.
-        }while(T0IF != 1); // check timer flag
+          PORTA = 0x2;       // PORTA = 2 if timer overflow bit isn't set.
+        }while(T0IF != 1);   // check timer flag
     
           T0IF = 0;          // set overflow flag to zero
           count++;           // increment counter
