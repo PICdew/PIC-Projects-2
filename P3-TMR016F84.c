@@ -2,6 +2,8 @@
  Project:  Basic 0 to 10 counter with TMR0 of PIC16F84 in C language
  Student : Burak Koryan | web : http://koryan.ca | e-mail : b.fk@unb.ca
  Date : January 17 2018
+ Notes: 
+       -> if the prescaler rate in the option_reg is increased,it takes longer for overflow to occur as expected.
  */
 
 
