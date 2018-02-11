@@ -30,6 +30,7 @@ void EEP_Write(unsigned char eAddr,unsigned char eData)
     WR = 1;                       
     GIE = gie_status;   
     WREN = 0;
+    return;
 }
 
 unsigned char EERead(unsigned char EEAddr)
@@ -37,7 +38,6 @@ unsigned char EERead(unsigned char EEAddr)
     while(RD||WR);                // Check if RD or WR is in progress;
     EEADR = EEAddr;               // Write the address
     RD = 1;                       // Set RD,the read bit to start read progress
-    
     return(EEDATA);               // return the read data
 }
 
@@ -48,5 +48,7 @@ void main()
     EEP_Write(eep_addr,'A')             // write 'A' character to EEPROM Address
     read_charac = EERead(eep_addr);     // read the char in the eep_addr address
     PORTB = read_char;                  // push read_char to PORTB (optional)
+    
+    while(1);
 }
 
