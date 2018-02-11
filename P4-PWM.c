@@ -60,7 +60,7 @@ void main()
     PWM_Init();                     // initialize PWM
     
     do{
-        PWM_DCycle(1000);           // duty cycle width 100 = 100uS 
+        PWM_DCycle(100);           // duty cycle width 100 = 100uS 
         delay(50);
     }while(1);
 }
