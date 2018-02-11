@@ -40,3 +40,13 @@ unsigned char EERead(unsigned char EEAddr)
     
     return(EEDATA);               // return the read data
 }
+
+void main()
+{
+    unsigned char eep_addr = 0,read_charac;
+    TRISB = 0;                          // set PORTB as output
+    EEP_Write(eep_addr,'A')             // write 'A' character to EEPROM Address
+    read_charac = EERead(eep_addr);     // read the char in the eep_addr address
+    PORTB = read_char;                  // push read_char to PORTB (optional)
+}
+
