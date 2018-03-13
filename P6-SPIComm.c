@@ -1,6 +1,9 @@
 
+// Burak Koryan | http://koryan.ca
 // Feb 14 2018
 // SPI communication with PIC24FJ128GA010 and external memory chip 25LC256
+// CODE NOT COMPLETED YET- TO BE UPDATED
+//-------------------------------------------------------------------------------
     
 #include <xc.h>
 
