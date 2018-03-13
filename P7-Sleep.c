@@ -1,5 +1,6 @@
 /*
-    This code below makes PIC24F128GB202 sleep 4 seconds 
+    Burak Koryan | http://koryan.ca
+    Description: This code below makes PIC24F128GB202 sleep 4 seconds 
     Date : March 7 2018
     e-mail : burak@koryan.ca
 */
