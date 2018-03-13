@@ -1,4 +1,4 @@
-**I have been using PICs on and off for personal projects and for work since 2010.Here are some personal projects I have done myself using Microchip's PICs:**
+**I have been using PICs on and off for personal projects and for work since 2010.Here are some personal projects I worked on using Microchip's PICs:**
 
 **Note:The projects above are written in C or ASM.I love both <3** 
 
@@ -12,3 +12,15 @@ Like "hello world!" in programming,I think a blinky led project is the "hello wo
 
 **P3-TMR016F84 - 8-bit timer(TMR0) use of PIC16F84 in C**
 I just wanted to make a reference source code to use in the future.In the sourcecode,the TMR0 is initialized and the prescaler rate is set to 1/2.The overflow bit is cleared and the TMR0 is started again 10 times and this is shown in PORTB as output.
+
+**P4-PWM setup with PIC16F677 in C**
+
+PWM setup is done using the source code given in this project.A PWM signal with given "PWMFreq" and " PWM_DCycle" duty cycle is generated with PIC16F677
+
+**P5-External EEPROM use with PIC16F877 using SPI**
+
+In this project,internal EEPROM of PIC16F877 is used to read/write data.
+
+**P6-SPI communication with an external EEPROM** 
+
+In this project,SPI communication with an external EEPROM (25LC256) is done using PIC24FJ128GA010 and data write/read is achieved.
