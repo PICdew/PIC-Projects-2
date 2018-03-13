@@ -24,3 +24,7 @@ In this project,internal EEPROM of PIC16F877 is used to read/write data.
 **P6-SPI communication with an external EEPROM** 
 
 In this project,SPI communication with an external EEPROM (25LC256) is done using PIC24FJ128GA010 and data write/read is achieved.
+
+**P7-Using power saving features of PIC24FJ128GA010**
+
+This source code makes the necessary setup to put PIC24F to sleep for 4 seconds whenever necessary and wakes it after 4 seconds to do some specific job
